@@ -1,0 +1,25 @@
+PATH
+  remote: ../kite-git
+  specs:
+    kite-git (0.1.0)
+
+PATH
+  remote: ../kite
+  specs:
+    kite (0.0.1)
+      gli (~> 2.18)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    gli (2.18.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  kite!
+  kite-git!
+
+BUNDLED WITH
+   2.0.1
