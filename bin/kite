@@ -2,7 +2,8 @@
 
 $: << File.join(File.dirname(__FILE__), "../lib")
 
+require 'gli'
 require 'kite'
-require 'microkube/app'
+require 'kite/command/root'
 
-exit Microkube::App.run(ARGV)
+exit Kite::Command::Root.run(ARGV)

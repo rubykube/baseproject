@@ -4,7 +4,7 @@ PATH
     kite-git (0.1.0)
 
 PATH
-  remote: ../kite
+  remote: ../kite2
   specs:
     kite (0.0.1)
       gli (~> 2.18)
